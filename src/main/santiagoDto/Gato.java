@@ -1,4 +1,4 @@
-package Herencia;
+package main.santiagoDto;
 public class Gato {
 
     private String nombre;
