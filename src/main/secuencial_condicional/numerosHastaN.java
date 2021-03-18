@@ -10,19 +10,19 @@ public class numerosHastaN {
         int N = sc.nextInt();
         int count = 1;
 
-        // for (int i = 1; i <= N; i++) {
-        // System.out.println(i);
-        // }
+        for (int i = 1; i <= N; i++) {
+        System.out.println(i);
+        }
 
-        // while (count <= N) {
-        // System.out.println(count);
-        // count = count + 1;
-        // }
+        while (count <= N) {
+        System.out.println(count);
+        count = count + 1;
+        }
 
-        // do {
-        // System.out.println(count);
-        // count = count + 1;
-        // } while (count != N + 1);
+        do {
+        System.out.println(count);
+        count = count + 1;
+        } while (count != N + 1);
 
         sc.close();
     }
