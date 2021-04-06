@@ -1,4 +1,4 @@
-package main.Herencia3;
+package main.Herencia;
 
 public class Main {
     

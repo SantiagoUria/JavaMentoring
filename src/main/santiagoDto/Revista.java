@@ -13,12 +13,4 @@ public class Revista extends Publicacion {
         return "Esta revista es " + getTitle() + "\n" + info() + " | Número: " + numero;
     }
 
-    public interface Prestable {
-
-        void prestar();
-
-        void devolver();
-
-        boolean prestado();
-    }
 }

@@ -1,6 +1,6 @@
 package main.santiagoDto;
 
-import main.santiagoDto.Revista.Prestable;
+import main.Interfaces.Prestable;
 
 public class Libro extends Publicacion implements Prestable {
 

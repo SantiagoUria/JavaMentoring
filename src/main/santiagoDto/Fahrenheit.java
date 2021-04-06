@@ -1,4 +1,4 @@
-package main;
+package main.santiagoDto;
 
 import java.util.Scanner;
 

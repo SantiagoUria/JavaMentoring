@@ -1,13 +1,11 @@
 package main.santiagoDto;
 
-import main.santiagoDto.Revista.Prestable;
-
 public class MainPublicaciones {
 
     public static int cuentaPrestados(Publicacion[] lista) {
         int i = 0;
         for (Publicacion publicacion : lista) {
-            if (publicacion instanceof Prestable && ((Prestable)publicacion).prestado()) {
+            if (publicacion instanceof Libro && ((Libro)publicacion).prestado()) {
                 i++;
             }
         }
@@ -24,7 +22,7 @@ public class MainPublicaciones {
         return i;
     }
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
 
         Libro libro1 = new Libro("123ABC", "Don Quijote de la mancha", 1605);
         Libro libro2 = new Libro("321XYZ", "Demian", 1919);
