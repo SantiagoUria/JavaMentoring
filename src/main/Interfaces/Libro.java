@@ -1,4 +1,4 @@
-package main.santiagoDto;
+package main.Interfaces;
 
 import main.Interfaces.Prestable;
 
