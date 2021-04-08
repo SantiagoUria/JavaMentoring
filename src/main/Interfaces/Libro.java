@@ -1,7 +1,5 @@
 package main.Interfaces;
 
-import main.Interfaces.Prestable;
-
 public class Libro extends Publicacion implements Prestable {
 
     private boolean prestado;
